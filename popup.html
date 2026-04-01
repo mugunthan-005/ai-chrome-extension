@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>AI Page Assistant</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+
+  <body>
+
+    <!-- TOP BAR -->
+    <div class="header">
+      <h1>🤖 AI Assistant</h1>
+      <p class="subtitle">Chat with any webpage</p>
+    </div>
+
+    <!-- SUMMARIZE BUTTON -->
+    <div class="section">
+      <button id="summarizeBtn">⚡ Summarize This Page</button>
+    </div>
+
+    <!-- CHAT BOX -->
+    <div class="section">
+      <textarea
+        id="userInput"
+        placeholder="Ask anything about this page..."
+        rows="3"
+      ></textarea>
+      <button id="askBtn">💬 Ask</button>
+    </div>
+
+    <!-- RESPONSE AREA -->
+    <div class="section">
+      <div id="responseBox">
+        <p class="placeholder-text">Your answer will appear here...</p>
+      </div>
+    </div>
+
+    <!-- Link to the JavaScript file -->
+    <script src="popup.js"></script>
+
+  </body>
+</html>
+```
+
+---
+
+## 🧠 Let me explain what each part does!
+```
+┌─────────────────────────────┐
+│  🤖 AI Assistant            │  ← .header (the top bar)
+│  Chat with any webpage      │
+├─────────────────────────────┤
+│  [ ⚡ Summarize This Page ] │  ← button with id="summarizeBtn"
+├─────────────────────────────┤
+│  [ textarea for question  ] │  ← id="userInput"
+│  [ 💬 Ask ]                 │  ← id="askBtn"
+├─────────────────────────────┤
+│                             │
+│  Your answer appears here   │  ← id="responseBox"
+│                             │
+└─────────────────────────────┘
