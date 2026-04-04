@@ -1,0 +1,4 @@
+# Never push these to GitHub
+*.env
+.env.local
+config.js

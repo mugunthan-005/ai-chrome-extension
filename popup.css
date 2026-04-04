@@ -86,7 +86,102 @@ textarea:focus {
   color: #d1d5db;
 }
 
-.placeholder-text {
-  color: #555;
-  font-style: italic;
+/* SETTINGS SECTION */
+.settings-box {
+  background-color: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.settings-label {
+  display: block;
+  font-size: 12px;
+  color: #a78bfa;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+#apiKeyInput {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #2a2a2a;
+  background-color: #0f0f0f;
+  color: #f0f0f0;
+  font-size: 12px;
+  margin-bottom: 8px;
+  outline: none;
+}
+
+#apiKeyInput:focus {
+  border-color: #7c3aed;
+}
+
+#saveKeyBtn {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #059669;
+  color: white;
+  transition: background-color 0.2s;
+  margin-bottom: 6px;
+}
+
+#saveKeyBtn:hover {
+  background-color: #047857;
+}
+
+.key-status {
+  font-size: 11px;
+  margin: 0;
+}
+/* SETTINGS BOX */
+.settings-box {
+  background-color: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.settings-label {
+  display: block;
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 6px;
+}
+
+#apiKeyInput {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #2a2a2a;
+  background-color: #0f0f0f;
+  color: #f0f0f0;
+  font-size: 12px;
+  margin-bottom: 8px;
+  outline: none;
+}
+
+#apiKeyInput:focus {
+  border-color: #7c3aed;
+}
+
+.key-status {
+  font-size: 11px;
+  margin-top: 6px;
+  min-height: 16px;
+}
+
+.key-saved {
+  color: #34d399;
+}
+
+.key-missing {
+  color: #f87171;
 }
